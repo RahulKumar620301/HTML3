@@ -1,0 +1,29 @@
+body{background-colors: beige}
+nav{background-color: #222;}
+nav a {color:white; text-decoration: none} 
+nav ul{text-align: center}
+nav li {display: inline-block; padding: 10px 20px; font-size: 16pt; 
+	font-variant: small-caps; letter-spacing: 2pt}
+header{text-align: center; letter-spacing: 1.5pt; text-transform: uppercase;}
+
+header h1{color: crimson; }
+header h2{color: cadetblue}
+main{width: 80%; padding: 20px; margin: auto; box-sizing: border-box; Line-height: 1.8em }
+main h3{text-align: right; background-color: crimson; color: white;
+padding-right: 12pt} 
+main p{text-align: justify; font-size: 16pt}
+main li{font-size: 16pt}
+footer{background-color: #222; color:white; padding:5px; text-align: center;
+text-transform: capitalize; font-size: 16pt ; font-weight: bold}
+
+
+
+main li:nth-child(even) {background-color: beige;}
+main li:nth-child(odd) {background-color:aliceblue;}
+main li:first-child{font-weight: bold}
+main li:last-child{font-style: italic}
+main p::first-line {font-style: italic;}
+main p::first-letter{font-size: 20pt; color: crimson}
+*::selection{background-color: crimson; color: white}
+main li::after{content: url('orange-rose-icon.png');}
+main li::before{content: 'Note '; color:cadetblue}
